@@ -1,0 +1,47 @@
+//=============================== Command =======================//
+** curl hit api http:localhost:3000/product
+ssl meaning [Secure Sockets Layer]
+server running command [$ NODE_ENV=production node index]
+1.create file [touch]
+2.check all file in directory [ls -a -l]
+2.folder inside create file [touch lib/data.js]
+
+
+//================ all package debug korar jonno ======
+NODE_DEBUG=http node index
+
+
+
+
+
+//=================================== Generate SSl server =====================================//
+1. download ssl exe [install admin panel]
+2. go to vs code and command openssl version -a 
+3. generate PRIVATE key command [openssl genrsa -out key.pem]
+4. certificate sing In req [openssl req -new -key key.pem -out csr.pem]\
+5. real certificate sing In req [openssl x509 -req -days 365 -in csr.pem -signkey key.pem -out cert.pem]
+
+
+
+
+
+
+
+amara zokhon node index.js command dei tokhon node ta oi file ke read kore and tar por V8 engine er kache pathay tar por engine code ke machine code e rupantor kore and tar por kaj ta kore dey
+
+//============================ req method =====================================//
+1 . req.baseUrl
+2 . req.originalUrl
+3 . req.path
+4 . req.ip
+6 . req.method
+7 . req.protocol
+8 . req.params
+9 . req.query
+10. req.cookies
+11. req.singedCookies
+12. req.secure
+
+
+https://www.youtube.com/watch?v=USrMdBF0zcg
+

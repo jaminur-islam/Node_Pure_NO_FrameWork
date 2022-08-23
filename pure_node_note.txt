@@ -1,0 +1,10 @@
+// the way to execute our code 
+1. Interpreters
+2. Compilers
+3. Transpilers
+Compilers: Take src code and compile it macine code.
+Transpilers : Take src code and turn it into more source code of another type.
+Interpreters : Take src code and directly execute it by talking realtime intermediate step 
+
+
+https://www.youtube.com/watch?v=0T5M3agKEnk&list=PLC3y8-rFHvwhI0V5mE9Vu6Nm-nap8EcjV&index=11
